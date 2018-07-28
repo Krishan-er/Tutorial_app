@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishan.tutorialapp">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Tutorial_app"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Intro" />
+        <activity android:name=".Vws" />
+        <activity android:name=".Vgroups" />
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intro_index" />
+        <activity android:name=".Android_history" />
+        <activity android:name=".Login_page" />
+        <activity android:name=".Enviornmental_setup" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Buttn" />
+        <activity android:name=".Ckbox" />
+        <activity android:name=".Txtview" />
+        <activity android:name=".Edittxt" />
+        <activity android:name=".Radiobttn" />
+        <activity android:name=".Constraint_layout" />
+        <activity android:name=".Relative_layout" />
+        <activity android:name=".Frame_layout" />
+        <activity android:name=".Linear_layout" />
+        <activity android:name=".Project_structure" />
+        <activity android:name=".Android_activities" />
+        <activity android:name=".Project_details" />
+        <activity android:name=".Manifest_file" />
+        <activity android:name=".Java_file" />
+        <activity android:name=".Resource_file" />
+        <activity android:name=".Lifecycle_file" />
+        <activity android:name=".Intent_file" />
+        <activity android:name=".Toast_file" />
+        <activity android:name=".Project_files"></activity>
+    </application>
+
+</manifest>

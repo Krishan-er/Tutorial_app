@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4ac0d"
+    tools:context=".Intro">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sw1"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/introduct"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/welcome"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="INTRODUCTION"
+                android:textSize="49sp" />
+            
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail"
+                android:textSize="28sp"
+                android:text="Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Wear OS for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics.
+Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The operating system has since gone through multiple major releases, with the current version being 8.1 Oreo, released in December 2017. The core Android source code is known as Android Open Source Project (AOSP), and is primarily licensed under the Apache License." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/architec_head"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="20dp"
+                android:text="Architecture Of Android"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/architec_img"
+                android:src="@drawable/android_architecture"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/versions_android"
+                />
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

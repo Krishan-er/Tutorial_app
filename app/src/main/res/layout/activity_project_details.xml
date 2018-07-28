@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Project_details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw_p_details">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/struct_headind"
+                android:text="ANDROID PROJECT"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stv1"
+                android:text="Android App Modules"
+                android:layout_marginTop="12dp"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stv2"
+                android:text="Provides a container for your app's source code, resource files, and app level settings such as the module-level build file and Android Manifest file. When you create a new project, the default module name is app.
+In the Create New Module window, Android Studio offers the following app modules"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stv3"
+                android:text=" * Phone Tablet Module
+\n* Wear OS Module
+\n* Android TV Module
+\n* Android Things"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/start"
+                android:src="@drawable/start"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/stv4"
+                android:text="Various devices ,Select any one of them for which you want to build the application"
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/m1"
+                android:src="@drawable/m1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/choose"
+                android:text="Choose any activity from them according to requirement"
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/m2"
+                android:src="@drawable/m2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/stv5"
+                android:text="Now configure the java and XML file "
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/m3"
+                android:src="@drawable/m3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

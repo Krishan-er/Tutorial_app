@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enviornmental_setup">
+    <ScrollView
+        android:id="@+id/sw_env"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ll_env"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env1"
+                android:text="How to Install Android Studio"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env2"
+                android:text="The installation process can take a while, but it is very simple and straight forward. All you need to do is carefully read the on-screen instructions and follow our guide as shown with screenshots. The current version of Android Studio is v2.3.3 as of writing this tutorial. These same instructions can be followed for installing Android Studio on Windows 7, Windows 8 and Windows 10."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env3"
+                android:layout_marginTop="12dp"
+                android:text="Now let’s begin with the tutorial:"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env4"
+                android:layout_marginTop="12dp"
+                android:text="Step 1 – Download Java Platform (JDK) and install it on your computer. Once completed, then proceed to the next step. Java is important for the functioning of Android Studio."
+                android:textSize="22sp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env5"
+                android:src="@drawable/java"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env6"
+                android:layout_marginTop="12dp"
+                android:text="Step 2 – Download Android Studio (android-studio-bundle-XX.XXXXXX-windows.exe) from the Android Developers website. This may take a while to download as the entire set up is about 2GB in size."
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env7"
+                android:src="@drawable/android_page"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env8"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step 3 – Run the EXE setup file you just downloaded. You should be greeted with a similar setup wizard screen as shown below. Click Next to begin!"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env9"
+                android:src="@drawable/s1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env10"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step4: Now choose what you want to install, all are a most important component in android programming.
+
+Go for Next"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env11"
+                android:src="@drawable/s2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env12"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step5: Go for I Agree, It's for integrating SDK, it will confirm SDK installation"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env13"
+                android:src="@drawable/s4"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env14"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step6: Go for I Agree, It's for Haxm installation."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env15"
+                android:src="@drawable/s3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env16"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step7: Now choose the location for Android Studio and SDK.
+
+Go for Next
+"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env17"
+                android:src="@drawable/s5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env18"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Step8: Here you need to define the size of android emulator processor. You can define up to 2GB and more than that depends on your RAM capacity. The size will be determined through Haxm. This will help your android studio to run faster.
+"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env19"
+                android:src="@drawable/s6"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env20"
+                android:src="@drawable/s7"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/env21"
+                android:src="@drawable/s7"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/env22"
+                android:layout_marginTop="12dp"
+                android:textSize="22sp"
+                android:text="Installation compelete."/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

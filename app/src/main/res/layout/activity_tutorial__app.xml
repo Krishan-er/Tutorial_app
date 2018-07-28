@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tutorial_app">
+
+    <ScrollView
+        android:id="@+id/sw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:padding="20dp"
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                android:background="#1f618d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TUTORIALS"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textSize="55sp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:background="#ffff"
+                android:src="@drawable/intro" />
+            <ImageButton
+                android:id="@+id/project_struct"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="15dp"
+                android:background="#ffff"
+                android:src="@drawable/projctstructr"
+                />
+
+            <ImageButton
+                android:id="@+id/layouts"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="15dp"
+                android:background="#ffff"
+                android:src="@drawable/layouts"
+                />
+
+            <ImageButton
+                android:id="@+id/ui_widgets"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/widgets"
+                android:scaleType="fitCenter"
+                android:background="#ffff"
+                android:layout_height="200dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:background="#ffff"
+                android:id="@+id/activities"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/activity"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

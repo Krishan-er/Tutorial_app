@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Java_file">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sw_java">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:id="@+id/ll_java">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/java_h"
+                android:text="JAVA FILES"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="50sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jtv1"
+                android:textSize="22sp"
+                android:text="It is an auto-generated file by aapt (Android Asset Packaging Tool) that contains resource IDs for all the resources of res/ directory."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jtv2"
+                android:text="If you create any component in the activity_main.xml file, id for the corresponding component is automatically created in this file."
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jtv3"
+                android:text="This id can be used in the activity source file to perform any action on the component."
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="310dp"
+                android:id="@+id/java_img"
+                android:src="@drawable/java_file"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

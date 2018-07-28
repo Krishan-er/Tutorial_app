@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Constraint_layout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/constraint_detail"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:id="@+id/ll_c"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONSTRAINT LAYOUT"
+                android:textStyle="bold"
+                android:id="@+id/c_heading"
+                android:textSize="55sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ConstraintLayout is a ViewGroup which allows you to position and size widgets in a flexible way."
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:id="@+id/cnstr"
+                android:src="@drawable/constraint_img" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resize handle – It’s present on the four corners and is used to resize the view, but keeping its constraints intact.
+\n \nSide handle – It’s the circular handle present on the centre of each side. It’s used to set the top, left, bottom and right constraints of the view.
+
+\n \nBaseline handle – It’s used to align the baseline with another textview in the layout."
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:id="@+id/cn_img"
+                android:src="@drawable/cn" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are two other tools Auto-connect and Inferences that are used to created constraints automatically.
+
+\n \nAuto-Connect – This feature can be enabled by clicking:Android ConstraintLayout example
+As the name suggests, Auto-connect creates constraints automatically between two neighbouring views
+\n \nInference – This feature is enabled by clicking:"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

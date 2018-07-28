@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intent_file">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sw_int">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:id="@+id/ll_int">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/itv1"
+                android:text="INTENT"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An Intent is a messaging object you can use to request an action from another app component. Although intents facilitate communication between components
+\n \nIts like message that android listens for and react accordingly by identifying and invoking the targated apps appropriate components (such as Activities, Services, Broadcast Receivers, and Content Providers) \n \nSytax \n \nIntent i = new Intent(this, ActivityTwo.class); \n \nStartActivity(i);"
+                android:textSize="22sp"
+                android:id="@+id/itv2"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/int_img"
+                android:src="@drawable/intent_img"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

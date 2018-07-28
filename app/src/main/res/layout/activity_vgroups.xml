@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vgroups">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sw3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll3"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/and_layout"
+                android:text="ANDROID LAYOUTS"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewgrp_h"
+                android:text="Viewgroup"
+                android:layout_margin="17dp"
+                android:textStyle="bold|italic"
+                android:textSize="26sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewgrp_detail"
+                android:text="A ViewGroup is an invisible object used to contain other View and ViewGroup objects in order to organize and control the layout of a screen. ViewGroup objects are used for creating a hierarchy of View objects (see below) so that you can create more complex layouts. That said, the more simple you can keep a layout, the more performant it is."
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vg_img"
+                android:src="@drawable/vgrp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_h"
+                android:text="View"
+                android:layout_margin="17dp"
+                android:textStyle="bold|italic"
+                android:textSize="26sp"/>
+
+            <TextView
+                android:id="@+id/view_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View objects are used specifically for drawing content onto the screen of an Android device. While you can instantiate a View in your Java code, the easiest way to use them is through an XML layout file. An example of this can be seen when you create an simple application in Android Studio. The layout file is the one named activity_main.xml,
+                 \n There are various views some of them are :-
+                 \n Button \n spinner \n TextView \n EditText \n CheckBox \n ProgressBar
+                 \n looks something like this."
+                android:textSize="22sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vw_img"
+                android:src="@drawable/views"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/diff_layouts"
+                android:text="Various Viewgroups"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/layout_bttn"
+                android:layout_height="250dp">
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

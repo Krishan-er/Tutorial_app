@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Android_history">
+    <ScrollView
+        android:id="@+id/his_sw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/his_layout"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/history"
+                android:text="HISTORY"
+                android:textStyle="bold"
+                android:textSize="55sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:id="@+id/his_content"
+                android:text="The version history of the Android mobile operating system began with the public release of the Android beta on November 5, 2007. The first commercial version, Android 1.0, was released on September 23, 2008. Android is continually developed by Google and the Open Handset Alliance, and it has seen a number of updates to its base operating system since the initial release.
+
+Versions 1.0 and 1.1 were not released under specific code names. Android code names are confectionery-themed and have been in alphabetical order since 2009's Android 1.5 Cupcake, with the most recent major version being Android 8.1 Oreo, released in December 2017."/>
+
+            <ImageView
+                android:id="@+id/his_image"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/version"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

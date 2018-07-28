@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vws">
+<ScrollView
+    android:layout_width="match_parent"
+    android:id="@+id/sw2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_h"
+            android:text="UI WIDGETS"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_detail"
+            android:text="Your app's user interface is everything that the user can see and interact with. Android provides a variety of pre-built UI components such as structured layout objects and UI controls that allow you to build the graphical user interface for your app. Android also provides other UI modules for special interfaces such as dialogs, notifications, and menus.
+\n Input controls are the interactive components in your apps user interface.
+\n Android provide a wide variety of controls you can use in your UI such as Button ,Textfiels ,Checkbox etc \n here is an example:-"
+            android:textSize="22sp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/xml_img"
+            android:src="@drawable/xml_img"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Different types of views"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/view_list"
+            android:layout_height="310dp">
+
+        </ListView>
+    </LinearLayout>
+</ScrollView>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

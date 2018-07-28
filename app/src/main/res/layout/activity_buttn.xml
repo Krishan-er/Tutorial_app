@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".Buttn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="IMAGE VIEW"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="Image view helps to display images in an android application.
+                \nAny image can be selected, we just have to paste our image in a drawable folder from where we can access it.
+                 \nFor example: In below Code “@drawable/ic_laucher” has been taken.
+"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/an9" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="XML coding of Image view:"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/an10"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.v7.widget.LinearLayoutCompat>

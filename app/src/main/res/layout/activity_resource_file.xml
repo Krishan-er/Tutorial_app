@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resource_file">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sw_res">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:id="@+id/ll_res">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtv1"
+                android:text="RESOURCES"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtv4"
+                android:text="RES folder of the android application projects is basically represents the RESOURCES "
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/resources_img"
+                android:src="@drawable/styles"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/res_details"
+                android:textSize="22sp"
+                android:text="
+There are four sub folders inside the res folder
+\n
+\n*drawable
+\n*layout
+\n*mipmap
+\n*values
+\n \n
+Drawable
+\nIt contain the image resources which is being used in the android project
+
+\n \nLayout
+\nIt contain the all XML files, in XML files we design the UI of the app
+
+\n \nMipmap
+\nIt contain the image resource of the apk icon
+
+\n \nValues
+\nIt contain three XML files colors ,strings,styles
+
+\ncolors - This contain the resources of the color codes for the primary and secondary text"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/res_img"
+                android:src="@drawable/colors"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtv2"
+                android:textSize="22sp"
+                android:text="Strings \nA string resource provides text strings for your application with optional text styling and formatting. There are three types of resources that can provide your application with strings
+
+
+\n \n String resources- A string resource provides text strings for your application with optional text styling and formatting. There are three types of resources that can provide your application with strings:
+
+\n \n String- XML resource that provides a single string.
+\n \nString Array- XML resource that provides an array of strings.
+\n \nQuantity Strings (Plurals)
+XML resource that carries different strings for pluralization.
+All strings are capable of applying some styling markup and formatting arguments. For information about styling and formatting strings, see the section about Formatting and Styling."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:id="@+id/string_img"
+                android:src="@drawable/string_img"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtv3"
+                android:layout_marginTop="10dp"
+                android:text="Styles -A style resource defines the format and look for a UI.Style can be applied to an individual View (from within a layout file) or to an entire Activity or application (from within the manifest file).
+\n \nA style is a collection of attributes that specify the appearance for a single View.Style can specify attributes such as font color, font size, background color, and much more."
+                android:textSize="22sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:id="@+id/styles_img"
+                android:src="@drawable/style"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
